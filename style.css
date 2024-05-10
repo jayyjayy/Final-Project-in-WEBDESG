@@ -1,0 +1,100 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+.Header {
+    height: 150px;
+    background-color: black;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.bname {
+    height: 25px;
+    font-weight: bold;
+    margin-top: 10px ;
+    text-align: center;
+    font-style: italic;
+    color: #9d7979;
+    font-size: 60px;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: #711f1f;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+}
+.navbar a:hover {
+    background-color: #df9797;
+}
+.navbar li {
+    float: left;
+}
+.info {
+    background-image: url(Images/guitar1.fpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.description {
+    font-weight: bold;
+    margin-top: 260px;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 100px;
+    float: left;
+    font-style: italic;
+    background-color: #926969;
+    font-size: 29px;
+}
+.pict {
+    margin-top: 260px;
+    width: 30%;
+    padding-right: 15px;
+    margin-right: 300px;
+    float: right;
+}
+img {
+    max-width: 600px;
+}
+.footer {
+    padding: 15px;
+    margin-top: 0px;
+    background-color: black;
+    color: #d9d9d9;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer, h4 {
+    font-size: 30px;    
+}
+.footc {
+    font-size: 24px;
+}
+.cws {
+    list-style-type: none;
+    padding: 15px;
+    margin: 0px;
+    overflow: hidden;
+}
+.cws li:hover{
+    background-color: #df9797;
+}
+.cws li {
+    padding: 10px;
+    float: left;
+}
